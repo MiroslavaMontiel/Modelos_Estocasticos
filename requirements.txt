@@ -1,0 +1,11 @@
+plotly.graph_objects
+pandas
+pmdarima
+dash
+dash_core_components
+dash_html_components
+dash.dependencies
+plotly.express
+dash_bootstrap_components
+dash_bootstrap_templates
+gunicorn
