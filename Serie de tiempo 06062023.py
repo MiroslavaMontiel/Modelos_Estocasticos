@@ -195,7 +195,7 @@ fig_huevo2 = create_arima_figure(df_huevo, 'Huevo Blanco')
 
 # Crear la aplicación de Dash
 app = dash.Dash(__name__)
-
+server = app.server
 # Lista de figuras
 figuras = [fig_aceite, fig_arroz, fig_azucar, fig_harina, fig_frijolmay, fig_frijolnegro, fig_huevo, fig_carnemolida,
            fig_bistec, fig_aguacate, fig_limon, fig_guayaba, fig_manzana, fig_manzana2, fig_naranja, fig_papaya,
