@@ -2,9 +2,8 @@ plotly==5.3.1
 pandas
 pmdarima
 dash==2.0.0
-dash-html-components==2.0.0
+dash-html-components
 dash_core_components
-dash.dependencies
 plotly.express
 dash_bootstrap_components
 dash_bootstrap_templates
