@@ -1,4 +1,6 @@
 plotly==5.3.1
+plotly-geo==1.0.0
+
 pandas
 pmdarima
 dash==2.0.0
