@@ -6,10 +6,10 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 
 # Especifica la ruta completa del archivo de Excel
-ruta_archivo1 = "C:/Users/Miros/Downloads/Archivos 2023 Pcolab/Enero_PColab 2023.xlsx"
-ruta_archivo2 = "C:/Users/Miros/Downloads/Archivos 2023 Pcolab/Febrero_PColab 2023.xlsx"
-ruta_archivo3 = "C:/Users/Miros/Downloads/Archivos 2023 Pcolab/Marzo_PColab 2023.xlsx"
-ruta_archivo4 = "C:/Users/Miros/Downloads/Archivos 2023 Pcolab/Abril_PColab 2023.xlsx"
+ruta_archivo1 = "Enero_PColab 2023.xlsx"
+ruta_archivo2 = "Febrero_PColab 2023.xlsx"
+ruta_archivo3 = "Marzo_PColab 2023.xlsx"
+ruta_archivo4 = "Abril_PColab 2023.xlsx"
 # Lee el archivo de Excel y asigna los datos a un DataFrame
 df1 = pd.read_excel(ruta_archivo1)
 df2 = pd.read_excel(ruta_archivo2)
